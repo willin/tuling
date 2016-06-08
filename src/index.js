@@ -1,6 +1,6 @@
 import {DEFAULTS, sendRequest} from './common';
 
-export default class TULING {
+module.exports = class TULING {
   constructor(options) {
     TULING.options = Object.assign({}, DEFAULTS, options);
     this.send = async(opts) => {
@@ -10,4 +10,4 @@ export default class TULING {
       return sendRequest(this.params, timeout);
     };
   }
-}
+};
