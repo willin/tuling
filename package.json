@@ -1,6 +1,6 @@
 {
   "name": "tuling",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "图灵机器人SDK",
   "main": "src/index.js",
   "engines": {
