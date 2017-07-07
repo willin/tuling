@@ -22,12 +22,10 @@ exports.sendRequest = (params = {}, timeout = 5000) => {
   request({
     method: 'POST',
     url: 'http://www.tuling123.com/openapi/api',
-    headers: [
-      {
-        name: 'content-type',
-        value: 'application/x-www-form-urlencoded'
-      }
-    ],
+    headers: [{
+      name: 'content-type',
+      value: 'application/x-www-form-urlencoded'
+    }],
     timeout: parseInt(timeout, 10),
     form: params
   }, (err, res) => {

@@ -14,7 +14,7 @@ npm install --save tuling
 ES7:
 
 ```js
-import TULING from 'tuling';
+const TULING = require('tuling');
 
 const tuling = new TULING({key: 'xxx'});
 
